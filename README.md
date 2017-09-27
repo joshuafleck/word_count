@@ -13,7 +13,7 @@ Fetches the text from the provided URL and does the following:
 
 ## Running
 
-        mix run word_count.exs "http://www.gutenberg.org/files/974/974-0.txt"
+    mix run word_count.exs "http://www.gutenberg.org/files/974/974-0.txt"
 
 For example, the output will look something like this:
 
