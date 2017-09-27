@@ -62,7 +62,7 @@ defmodule WordCount do
     text
     |> normalize
     |> String.split(~r/\s/, trim: true)
-    |> Enum.reject(&short_word?(&1))
+    |> Enum.reject(&short_word?/1)
   end
 
   @doc """
